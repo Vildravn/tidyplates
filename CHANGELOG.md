@@ -1,9 +1,12 @@
-Pack Command:  		zip -vr TP_Release.zip TidyPlates* -x@exclude.lst
-Copy command:		cp -R TidyPlates* ~/tidyplates
-Exclusion List: 	*.svn*   *.DS_Store*   exclude.lst   *.db   *.png   *.gif   *.jpg   *.tif   *.txt   *.psd   *.bmp   *.zip
+---------------------------
+6.20.0
+---------------------------
+Shadowlands compatibility
+* Core: Updated the TOC versions.
+* Core: Replaced UNIT_HEALTH_FREQUENT with UNIT_HEALTH
+* Core: Remove newbie tooltips (GameTooltip_AddNewbieTip was removed) 
+* Core, Hub: Fixed lua errors caused by backdrop system changes
 
-
-See TidyPlatesChanges.log for cumulative changes:
 
 
 ---------------------------
