@@ -985,7 +985,7 @@ do
 		SetUpdateAll()
 	end
 
-	function events:UNIT_HEALTH_FREQUENT(...)
+	function events:UNIT_HEALTH(...)
 		local unitid = ...
 		local plate = PlatesByUnit[unitid]
 
